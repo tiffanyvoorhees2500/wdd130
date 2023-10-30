@@ -41,7 +41,7 @@
     transform: translate(-50%,-50%);
 }
 .banner-title{
-    display: inline;
+    font-size: 3rem;
     margin: 0px 100px 0px 100px;
 }
 
