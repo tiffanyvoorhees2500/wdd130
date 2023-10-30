@@ -1,0 +1,66 @@
+.logo-box{
+    text-align:center;
+}
+#logo{
+    border-radius: 50px;
+}
+
+.navigation-box{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+}
+.navigation-link{
+    margin: 10px;
+}
+
+/*Clear the floats after the columns */
+.row:after{
+    content:"";
+    display: table;
+    clear:both;
+}
+
+.banner-container{
+    position: relative;
+    text-align: center;
+    margin: 10px;
+}
+.banner-image{
+    width: 100%;
+    height: 20vh;
+    opacity: 50%;
+}
+.banner-text{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner-title{
+    display: inline;
+    margin: 0px 100px 0px 100px;
+}
+
+
+.product-box{
+    width: 75vw;
+    margin: auto;
+}
+.product-column{
+    float:left;
+    width:25%;
+    text-align: center;
+}
+
+
+footer{
+    margin: auto;
+    border-style: solid;
+    border-width: 10px 0px 0px 0px;
+}
+.footer-column{
+    float:left;
+    width:25%;
+    text-align: center;
+}
