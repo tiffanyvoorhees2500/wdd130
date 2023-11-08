@@ -1,0 +1,32 @@
+.hero {
+	margin: 10px auto;
+	position: relative; /* If removed, what happens? */
+}
+
+.herodiv img {
+    display: block;
+	width: 100%;
+	height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    background-color: black;
+    opacity: 0.8;
+}
+
+article img {
+    width: 150px;
+    float: right;
+}
+article {
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    width: 800px;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+}
