@@ -77,15 +77,9 @@ nav a:hover{
 	position: relative; /* If removed, what happens? */
 }
 
-.herodiv img {
-    display: block;
-	width: 100%;
-	height: auto;
-}
-
 h1 {
     position: absolute;
-    top: 200px;
+    top: 0px;
     left: 50px;
     background-color: black;
     opacity: 0.8;
@@ -97,7 +91,7 @@ article img {
 }
 article {
     position: absolute;
-    top: 300px;
+    top: 100px;
     left: 50px;
     width: 800px;
     background-color: black;
