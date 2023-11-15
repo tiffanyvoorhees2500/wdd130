@@ -134,8 +134,23 @@ article p {
     grid-column: 1/6;
 }
 .adventure-grid img {
-    width:150px;
-    height:auto;
+    max-width:150px;
+    max-height:150px;
+}
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
 }
 .image-1{
     grid-column: 1/2;
