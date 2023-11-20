@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WWD | HTML Form - User Poll</title>
+    <meta name="description" content="Poll Form for WWD130 Web Development Class">
+    <meta name="author" content="Tiffany Voorhees">
+    
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+<body>
+    <header>
+        <h1>WWD 130 | Tiffany Voorhees | HTML Form- User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+
+                <div class="form-item column2">
+                    <label for="useremail">Email:</label>
+                    <input type="text" id="useremail" name="useremail">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite internet browser?</label>
+                    <select id="browser" name="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="edge">Edge</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="safari">Safari</option>
+                    </select>
+                </div>
+
+                <div class="form-item column1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+
+                <div class="form-item column1">
+                    <label for="feedback">List the places you have lived</label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Spanish Fork Utah, Mesa Arizona, Rexburg Idaho"></textarea>
+                </div>
+            </fieldset>
+            <button type="submit" value="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>©2023 💎 HTML Form - User Poll Activity 💎 Tiffany Voorhees</p>
+    </footer>
+</body>
+</html>
