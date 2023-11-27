@@ -39,6 +39,10 @@ header{
     align-items: center;
 }
 
+h1 {
+    font-size: 2em;
+}
+
 
 p{
     padding: 5px;
@@ -171,4 +175,92 @@ figcaption {
 footer{
     display:flex;
     justify-content: space-between;
+    align-items: center;
 }
+
+footer img{
+    width:25px;
+    height:auto;
+}
+
+.employee-flex{
+    display:flex;
+    margin-bottom: 1rem;
+}
+.employee-pic img{
+    width:220px;
+    height: 220px;
+    object-fit: cover;
+}
+
+
+.location-flex{
+    display:flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.address-container{
+    text-align: left;
+    padding-left: 50px;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid var(--primary-color);
+    background-color: rgb(224, 222, 222);
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 1rem;
+}
+
+input, label, select, textarea, button {
+    font-family: var(--paragraph-font);
+}
+
+label {
+    text-align: left;
+    padding: 0.5em;
+}
+
+input, select, textarea {
+    padding: .5rem;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+.checkbox-item, .radio-item{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding:.5rem;
+}
+
+.purpose-section {
+    margin: 10px 0;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background-color: #6f99bc;
+    color: var(--primary-color);
+}
+
+
+
