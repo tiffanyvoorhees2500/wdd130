@@ -146,8 +146,9 @@ figure {
     display: flex;
     flex-flow: column;
     padding: 5px;
-    max-width: 220px;
+    max-width: 300px;
     margin: auto;
+    height: 500px;
 }
 figcaption {
     background-color: #222;
@@ -155,6 +156,10 @@ figcaption {
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
+    height: 250px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .image-1{
     grid-column: 1/2;
@@ -183,12 +188,12 @@ footer img{
     height:auto;
 }
 
-.employee-flex{
+.picture-flex{
     display:flex;
     margin-bottom: 1rem;
 }
-.employee-pic img{
-    width:220px;
+.figure-pic img{
+    width:300px;
     height: 220px;
     object-fit: cover;
 }
@@ -261,6 +266,16 @@ button:hover {
     background-color: #6f99bc;
     color: var(--primary-color);
 }
+table,td{
+    border:1px solid var(--accent1-color);
+}
 
-
+th,td{
+    padding: 0.5rem;
+}
+thead{
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    font-size:1em;
+}
 
