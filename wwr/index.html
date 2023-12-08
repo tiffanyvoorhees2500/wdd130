@@ -21,36 +21,39 @@
     </header>
     <main>
         <div class="home-hero">
-            <img class="hero-background" src="images/home-banner.png" alt="Rafting Hero Image">
+            <img class="hero-background" src="images/home-banner.png" alt="Rafting Hero Image" width="960">
             <h1>Whitewater Adventures - Let's Get Started!</h1>
         </div>
         
         <h2>Something for everyone!</h2>
-        <div class="picture-flex">
-            <figure class="figure-pic">
-                <img src="images/trip-family.jpg" alt="Family Trip">
-                <h3>December 9, 2023</h3>
-                <figcaption class="extended-caption">Family Float<br>Provo River<p>Fun for the whole family! 1½ - 2 hours on the river.  Life jackets provided. Just bring your family/friends and some snacks to enjoy on the river.</p>
-                
-            </figure>
-            <figure class="figure-pic">
-                <img src="images/trip-grade3.jpg" alt="Grade 3 Trip">
-                <h3>December 9, 2023</h3>
-                <figcaption class="extended-caption">Grade 3<br>White Water Rafting<p>Great for families with children as young as eight who want 4-5 hours on the water without experiencing grade 5 rapids.</p>
-                
-            </figure>
-            <figure class="figure-pic">
-                <img src="images/trip-grade5.jpg" alt="Grade 5 Trip">
-                <h3>December 16, 2023</h3>
-                <figcaption class="extended-caption">Grade 5<br>White Water Rafting<p>Great for adventurers.  This 4-5 hour whitewater rafting adventure has all the thrills you are seeking for.  Grade 5 rapids included!</p>
-                
-            </figure>
+        <div class="picture-grid">
+            <div class="picture-grid-item">
+                <figure class="figure-pic">
+                    <img src="images/trip-family.jpg" alt="Family Trip">
+                    <figcaption>Family Float<br>Provo River</figcaption>
+                </figure>
+                <p>Fun for the whole family! 1½ - 2 hours on the river.  Life jackets provided. Just bring your family/friends and some snacks to enjoy on the river.</p>
+            </div>
+            <div class="picture-grid-item">
+                <figure class="figure-pic">
+                    <img src="images/trip-grade3.jpg" alt="Grade 3 Trip">
+                    <figcaption>Grade 3<br>White Water Rafting</figcaption>
+                </figure>
+                <p>Great for families with children as young as eight who want 4-5 hours on the water without experiencing grade 5 rapids.</p>
+            </div>
+            <div class="picture-grid-item">
+                <figure class="figure-pic">
+                    <img src="images/trip-grade5.jpg" alt="Grade 5 Trip">
+                    <figcaption>Grade 5<br>White Water Rafting</figcaption>
+                </figure>
+                <p>Great for adventurers.  This 4-5 hour whitewater rafting adventure has all the thrills you are seeking for.  Grade 5 rapids included!</p>
+            </div>
         </div>
 
 
-        <a href="trips.html"><button type="button">Book A Trip</button></a>
+        <a href="trips.html" class="btn-link">Book Your Trip</a>
         
-        <form>
+        <form id="newsletter-form">
             <h2>Sign up for our newsletter</h2>
 
             <label for="user-name">Name</label>
@@ -64,13 +67,13 @@
                 <input type="checkbox" id="subscribe" name="subscribe">
             </div>
 
-            <button type="submit">Send</button>
+            <button type="submit">Sign Up</button>
         </form>
     </main>
     <footer>
         <p>©2023 💎 Whitewater Adventures 💎 Tiffany Voorhees</p>
         
-        <a href="image/home-wireframe.jpg" target="_blank">Home Wireframe</a>
+        <a href="images/home-wireframe.png" target="_blank">Home Wireframe</a>
 
         <div>
             <a href="https://www.facebook.com" target="_blank"><img src="images/facebook-icon.png" alt="Facebook" width="50"></a>
