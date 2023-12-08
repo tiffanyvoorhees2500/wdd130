@@ -20,6 +20,7 @@ body{
     max-width: 960px;
     padding: 20px;
     text-align: center;
+    margin: 0 auto;
 }
 
 img{
